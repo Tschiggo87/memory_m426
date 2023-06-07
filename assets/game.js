@@ -111,7 +111,7 @@ const startGame = () => {
 // Zurücksetzen des Spiels
 const resetGame = () => {
     state.gameStarted = false;
-    selectors.start.textContent = 'Start';
+    selectors.start.textContent = 'Start / New Game';
     selectors.board.innerHTML = '';
     selectors.moves.innerText = '0 moves';
     selectors.timer.innerText = 'time: 0 sec';
